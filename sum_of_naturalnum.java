@@ -1,6 +1,6 @@
 public class sum_of_naturalnum {
     public static int print_sum(int num){
-        if(num==1){
+        if(num==1){//the sum of natural nums till 1 is 1 so we will return 1.
             return 1;
         }
         return num+print_sum(num-1);
