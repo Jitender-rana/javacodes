@@ -9,8 +9,16 @@ public class TestNestedInterface1 implements showable.Message{
     public static void main(String args[]){
         showable.Message message=new TestNestedInterface1();
         message.msg();
+        
     }
 
 } 
+// nested class--static nested
+// non static 
+// memeber inner class
+// Annonymous inner class
+// Local inner class
+// static Nested class
+// Nested inter face
     
 
